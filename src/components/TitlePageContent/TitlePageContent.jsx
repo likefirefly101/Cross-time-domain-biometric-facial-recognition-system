@@ -55,7 +55,7 @@ function TitlePageContent() {
                     </div>
                     {/* 清理了非法的 className 语法 */}
                     <div className='w-[644px] h-[37px] ml-10 font-normal text-[28px] text-black text-left not-italic font-[Microsoft_YaHei]'>
-                        基于非线性与对抗双重解耦的跨时域面部识别系统
+                        基于时空恒定表征与特征解耦的跨时域面部识别系统
                     </div>
                     <div className='w-155 h-[69px] ml-3 font-normal text-sm text-[#4C4C4C] leading-[25px] text-left not-italic font-[Microsoft_YaHei] cursor-pointer'>
                         本系统通过非线性显性解耦与对抗隐性解耦的双重解耦策略，结合FE-Net50、高效卷积块注意力模块、对抗域适应、梯度反转层以及多任务联合训练等核心算法，能够彻底抽离岁月干扰并提取纯净身份特征，满足人类与非人类生物在跨越漫长时间线下的高精度、强泛化身份核验需求。</div>
