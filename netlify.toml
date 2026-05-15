@@ -1,0 +1,12 @@
+# 1. 解决 API 接口跨域与代理转发问题
+[[redirects]]
+  from = "/api/*"
+  to = "http://8.137.81.180:8080/api/:splat"
+  status = 200
+  force = true
+
+# 2. 解决 React Router 单页应用刷新报 404 的问题
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
