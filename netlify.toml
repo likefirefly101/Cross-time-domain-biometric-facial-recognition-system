@@ -1,7 +1,7 @@
 # 1. 解决 API 接口跨域与代理转发问题
 [[redirects]]
   from = "/api/*"
-  to = "http://8.137.120.17:8080/api/:splat"
+  to = "http://8.137.81.180:8080/api/:splat"
   status = 200
   force = true
 
